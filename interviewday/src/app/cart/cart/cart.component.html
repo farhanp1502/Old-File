@@ -1,0 +1,11 @@
+<!-- cart.component.html -->
+
+<!-- cart.component.html -->
+
+<div *ngFor="let item of cartData" class="cart-item">
+  <h2>{{ item.name }}</h2>
+  <p class="price">Price: ${{ item.price }}</p>
+  <p class="quantity">Quantity: {{ item.quantity }}</p>
+  <!-- Add more cart item information here -->
+</div>
+

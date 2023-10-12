@@ -1,0 +1,7 @@
+/* You can add global styles to this file, and also import other style files */
+.list li {
+  list-style-type: none;
+  border: 1px solid #ccc; /* Add a horizontal line under each list item */
+  padding: 10px; /* Add some spacing between the text and the line */
+  margin: 0; /* Remove default margins */
+}

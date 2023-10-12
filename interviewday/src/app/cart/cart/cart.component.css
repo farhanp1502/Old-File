@@ -1,0 +1,27 @@
+/* cart.component.css */
+
+.cart-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.cart-item h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.cart-item p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.cart-item .price {
+  font-weight: bold;
+  color: #333;
+}
+
+.cart-item .quantity {
+  font-style: italic;
+  color: #555;
+}

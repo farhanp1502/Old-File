@@ -1,0 +1,23 @@
+<div *ngFor="let product of products" class="product-card" [ngClass]="{'unavailable': !product.available}">
+  <h2>{{ product.name }}</h2>
+  <p>Product ID: {{ product.product_id }}</p>
+  <p>Brand: {{ product.brand }}</p>
+  <p>Price: ${{ product.price }}</p>
+  <p>Description: {{ product.description }}</p>
+  <p>Available Colors:</p>
+  <ul>
+    <li *ngFor="let color of product.colors">{{ color }}</li>
+  </ul>
+  <p class="availability">{{ product.available ? 'Available' : 'Not Available' }}</p>
+
+  <!-- Add Buy button and quantity input field -->
+  <div class="buy-section">
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" name="quantity" [(ngModel)]="product.quantity">
+    <!-- Assuming you have a 'quantity' property in your product object -->
+    <span>{{ product.quantity }}</span>
+    <button (click)="addToCart(product)">Buy</button>
+  </div>
+
+  <hr>
+</div>

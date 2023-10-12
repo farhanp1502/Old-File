@@ -1,0 +1,33 @@
+/* Style the list items as boxes */
+
+ul.list  {
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.list li {
+  height: 200px;
+  width: 200px;
+  list-style: none;
+  background-color: #fff;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #ccc; /* Add a border to create the box effect */
+  border-radius: 5px; /* Round the corners of the boxes */
+  transition: background-color 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list li a {
+  text-decoration: none;
+}
+
+/* Change the background color on hover */
+.list li:hover {
+  background-color: #f0f0f0; /* Change to your desired hover background color */
+}

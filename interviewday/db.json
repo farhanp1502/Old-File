@@ -1,0 +1,85 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "farhan",
+      "email": "farhan123@gmail.com",
+      "password": "farhan123",
+      "status": "logged out"
+    }
+  ],
+  "products": [
+    {
+      "product_id": "12345",
+      "name": "Smartphone",
+      "brand": "Apple",
+      "price": 999.99,
+      "description": "The latest iPhone with advanced features.",
+      "colors": [
+        "Silver",
+        "Gray",
+        "Gold"
+      ],
+      "available": true
+    },
+    {
+      "product_id": "54321",
+      "name": "Laptop",
+      "brand": "Dell",
+      "price": 1299.99,
+      "description": "High-performance laptop for gaming and productivity.",
+      "colors": [
+        "Black",
+        "Silver"
+      ],
+      "available": true
+    },
+    {
+      "product_id": "67890",
+      "name": "Headphones",
+      "brand": "Sony",
+      "price": 149.99,
+      "description": "Over-ear headphones with noise-cancellation technology.",
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "available": false
+    },
+    {
+      "product_id": "98765",
+      "name": "Tablet",
+      "brand": "Samsung",
+      "price": 499.99,
+      "description": "Compact tablet for entertainment and productivity on the go.",
+      "colors": [
+        "Black",
+        "Silver"
+      ],
+      "available": true
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "product_id": "54321",
+      "name": "Laptop",
+      "price": 1299.99,
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "product_id": "54421",
+      "name": "Laptop s",
+      "price": 1299.99,
+      "quantity": 1
+    },
+    {
+      "name": "Smartphone",
+      "price": 999.99,
+      "product_id": "12345",
+      "quantity": 2,
+      "id": 3
+    }
+  ]
+}
